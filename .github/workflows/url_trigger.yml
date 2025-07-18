@@ -13,7 +13,7 @@ jobs:
       - name: Trigger URL
         run: |
           echo "Triggering the URL..."
-          curl -s https://neelamjewellers.vercel.app/.......... || echo "Failed to reach URL"
+          curl -s https://neelam-gemstones.onrender.com || echo "Failed to reach URL"
 
       - name: Wait for 5 minutes
         run: |
